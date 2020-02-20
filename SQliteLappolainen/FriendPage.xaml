@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="SQliteLappolainen.FriendPage" Title="Информация о отмазке">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout BackgroundColor="#f4f0e6" >
+                <Label Text="Кому(Им.Падеж)" FontAttributes="Italic" Margin="15,0,0,0" TextColor="#000000"/>
+                <Entry Text="{Binding Name}" FontAttributes="Italic" Margin="15,0" PlaceholderColor="#000000"/>
+                <Label Text="Описание" FontAttributes="Italic" Margin="15,0,0,0" TextColor="#000000"/>
+                <Entry Text="{Binding Email}" FontAttributes="Italic" Margin="15,0" PlaceholderColor="#000000"/>
+                <Label Text="Телефон получателя" FontAttributes="Italic" Margin="15,0,0,0" TextColor="#000000"/>
+                <Entry Text="{Binding Phone}" FontAttributes="Italic" Margin="15,0" PlaceholderColor="#000000"/>
+            <!--<Label Text="Дата Рождения"/>
+            <DatePicker MinimumDate="01/01/2000"  Date="{Binding Date}" x:Name="DB"/>
+            <Label Text="Возраст"/>
+            <Label Text="{Binding Age}"/>
+            <Label Text=" Дней до дня рождения"/>
+            <Label Text="{Binding Dleft}"></Label>
+            <Label Text="Статус"/>
+            <Label Text="{Binding Status}" TextColor="Black"></Label>
+            <Label Text="Национальность"/>
+            <Entry Text="{Binding Nazi}"/>
+            <Switch x:Name="switch" IsToggled="{Binding sswitch}"></Switch>
+            <Label Text="Пол"/>
+            <Picker x:Name="Piccker" SelectedIndex="{Binding Sex}" >
+                <Picker.Items>
+                    <x:String>Male</x:String>
+                    <x:String>Female</x:String>
+                        <x:String>Other</x:String>
+                    </Picker.Items>
+            </Picker>-->
+            <StackLayout Orientation="Horizontal">
+                    <Button Text="Сохранить" Clicked="SaveFriend"  BackgroundColor="#d9d9f3" FontAttributes="Italic" Margin="30,20,5,0" CornerRadius="10" BorderColor="#050000" BorderWidth="1"/>
+                    <Button Text="Удалить" Clicked="DeleteFriend"  BackgroundColor="#d9d9f3" FontAttributes="Italic" Margin="0,20,5,0" CornerRadius="10" BorderColor="#050000" BorderWidth="1"/>
+                    <Button Text="Отмена" Clicked="Cancel"  BackgroundColor="#d9d9f3" FontAttributes="Italic" Margin="0,20,0,0" CornerRadius="10" BorderColor="#050000" BorderWidth="1"/>
+            </StackLayout>
+        </StackLayout></ScrollView>
+    </ContentPage.Content>
+</ContentPage>
