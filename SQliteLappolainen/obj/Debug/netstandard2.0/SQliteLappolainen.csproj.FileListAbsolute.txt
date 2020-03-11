@@ -12,3 +12,4 @@ C:\Users\opilane\source\repos\SQliteLappolainen\SQliteLappolainen\bin\Debug\nets
 C:\Users\opilane\source\repos\SQliteLappolainen\SQliteLappolainen\bin\Debug\netstandard2.0\SQliteLappolainen.pdb
 C:\Users\opilane\source\repos\SQliteLappolainen\SQliteLappolainen\obj\Debug\netstandard2.0\SQliteLappolainen.csprojAssemblyReference.cache
 C:\Users\opilane\source\repos\SQliteLappolainen\SQliteLappolainen\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\opilane\source\repos\SQliteLappolainen\SQliteLappolainen\obj\Debug\netstandard2.0\Sending.xaml.g.cs

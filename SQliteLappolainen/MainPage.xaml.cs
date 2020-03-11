@@ -78,9 +78,11 @@ namespace SQliteLappolainen
             await Navigation.PushAsync(otmaza);
         }
 
-        private void Button_Clicked_1(object sender, EventArgs e)
+        private async void Button_Clicked_1(object sender, EventArgs e)
         {
 
+            Sending send = new Sending();
+            await Navigation.PushAsync(send);
         }
     }
 }

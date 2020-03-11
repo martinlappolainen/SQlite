@@ -7,7 +7,20 @@
              x:Class="SQliteLappolainen.Otmaza">
     <ContentPage.Content>
         <StackLayout BackgroundColor="#f4f0e6">
-            <ListView x:Name="friendsList" ItemsSource="{Binding}" ItemSelected="FriendsList_ItemSelected"/>
+            <ListView x:Name="friendsList" ItemsSource="{Binding}" ItemSelected="FriendsList_ItemSelected">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <ViewCell.View>
+                            <StackLayout Orientation="Horizontal">
+                                <Label Text="{Binding Name}" FontSize="Medium" />
+                            </StackLayout>
+                        </ViewCell.View>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+            </ListView>
+
             <!--<CollectionView x:Name="CollectionView"
                     ItemsSource="{Binding Items}"
                     Margin="0, 5, 0, 0"

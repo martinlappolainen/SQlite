@@ -932,8 +932,8 @@
         "dependencies": {
           "ContextViewCell": "2.0.1",
           "Xam.Plugins.Messaging": "5.2.0",
-          "Xamarin.Essentials": "1.3.1",
-          "Xamarin.Forms": "4.4.0.991265",
+          "Xamarin.Essentials": "1.5.1",
+          "Xamarin.Forms": "4.5.0.356",
           "sqlite-net-pcl": "1.6.292"
         },
         "compile": {
@@ -2415,8 +2415,18 @@
       "code": "NU1605",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Detected package downgrade: Xamarin.Essentials from 1.3.1 to 1.1.0. Reference the package directly from the project to select a different version. \r\n SQliteLappolainen.Android -> SQliteLappolainen -> Xamarin.Essentials (>= 1.3.1) \r\n SQliteLappolainen.Android -> Xamarin.Essentials (>= 1.1.0)",
+      "message": "Detected package downgrade: Xamarin.Essentials from 1.5.1 to 1.1.0. Reference the package directly from the project to select a different version. \r\n SQliteLappolainen.Android -> SQliteLappolainen -> Xamarin.Essentials (>= 1.5.1) \r\n SQliteLappolainen.Android -> Xamarin.Essentials (>= 1.1.0)",
       "libraryId": "Xamarin.Essentials",
+      "targetGraphs": [
+        "MonoAndroid,Version=v9.0"
+      ]
+    },
+    {
+      "code": "NU1605",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Detected package downgrade: Xamarin.Forms from 4.5.0.356 to 4.4.0.991265. Reference the package directly from the project to select a different version. \r\n SQliteLappolainen.Android -> SQliteLappolainen -> Xamarin.Forms (>= 4.5.0.356) \r\n SQliteLappolainen.Android -> Xamarin.Forms (>= 4.4.0.991265)",
+      "libraryId": "Xamarin.Forms",
       "targetGraphs": [
         "MonoAndroid,Version=v9.0"
       ]
